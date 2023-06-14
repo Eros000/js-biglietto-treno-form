@@ -23,6 +23,10 @@ myButton.addEventListener('click',
 
         console.log ('price', price, typeof price)
 
+        const result = document.getElementById('result')
+
+        result.innerHTML = price
+
         
     }
 
